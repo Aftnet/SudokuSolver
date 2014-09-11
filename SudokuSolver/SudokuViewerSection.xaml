@@ -1,0 +1,50 @@
+﻿<UserControl x:Class="SudokuSolver.SudokuViewerSection"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Height="100" Width="100">
+    
+    <Border BorderBrush="Black" BorderThickness="3">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="0">
+                <Label Name="NumLabel00" TextBlock.FontSize="18" TextBlock.FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="1">
+                <Label Name="NumLabel01" TextBlock.FontSize="18" TextBlock.FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Row="0" Grid.Column="2">
+                <Label Name="NumLabel02" TextBlock.FontSize="18" TextBlock.FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="0">
+                <Label Name="NumLabel10" TextBlock.FontSize="18" TextBlock.FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="1">
+                <Label Name="NumLabel11" TextBlock.FontSize="18" TextBlock.FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Row="1" Grid.Column="2">
+                <Label Name="NumLabel12" TextBlock.FontSize="18" TextBlock.FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="0">
+                <Label Name="NumLabel20" TextBlock.FontSize="18" TextBlock.FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="1">
+                <Label Name="NumLabel21" TextBlock.FontSize="18" TextBlock.FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <Border BorderBrush="Black" BorderThickness="1" Grid.Row="2" Grid.Column="2">
+                <Label Name="NumLabel22" TextBlock.FontSize="18" TextBlock.FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+        </Grid>
+    </Border>
+</UserControl>
