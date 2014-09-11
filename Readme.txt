@@ -1,2 +1,0 @@
-﻿The program accepts input as a json formatted text file: use File->Open to load a suitably formatted input (sample json files are provided in the archive; zeroes signify empty cells).
-Use the buttons to solve the sudoku and cycle between the solutions found; File->Save saves the solution found as a json formatted text file.

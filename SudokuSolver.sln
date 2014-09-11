@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolverCore", "SolverCore\So
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolverCore.Test", "SolverCore.Test\SolverCore.Test.csproj", "{69D681AD-60A3-4F64-828A-E3B04029B9DD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CC8E5DDA-351D-40DB-8397-59FE9F9DB48E}"
+	ProjectSection(SolutionItems) = preProject
+		MultiSolution.json = MultiSolution.json
+		README.md = README.md
+		SingleSolution.json = SingleSolution.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
